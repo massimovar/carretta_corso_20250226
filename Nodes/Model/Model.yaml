@@ -1,2 +1,11 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- File: Folder1/Folder1.yaml
+- Name: MyFirstBit
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variable1
+  Id: g=3fb4092ebb6e5db19bc43e70835b24fb
+  Type: BaseDataVariableType
+  DataType: Int32
