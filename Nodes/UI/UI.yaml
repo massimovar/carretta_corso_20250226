@@ -917,6 +917,16 @@ Children:
             DataType: LocalizedText
             ModellingRule: Optional
             Value: {"LocaleId":"en-US","Text":"Home"}
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
           - Name: MouseClickEventHandler1
             Type: EventHandler
             Children:
@@ -992,16 +1002,6 @@ Children:
               - Name: Severity
                 Type: PropertyType
                 DataType: UInt16
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
         - Name: Button2
           Type: Button
           Children:
@@ -1195,7 +1195,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Button1"}
+            Value: {"LocaleId":"en-US","Text":"Converters"}
           - Name: MouseClickEventHandler1
             Type: EventHandler
             Children:
@@ -1306,7 +1306,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Button1"}
+            Value: {"LocaleId":"en-US","Text":"PLC"}
           - Name: MouseClickEventHandler1
             Type: EventHandler
             Children:

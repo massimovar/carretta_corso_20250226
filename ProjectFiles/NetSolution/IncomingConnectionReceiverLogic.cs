@@ -3,6 +3,9 @@ using UAManagedCore;
 using FTOptix.System;
 using FTOptix.NetLogic;
 using FTOptix.WebUI;
+using FTOptix.S7TiaProfinet;
+using FTOptix.CommunicationDriver;
+using FTOptix.S7TCP;
 #endregion
 
 public class IncomingConnectionReceiverLogic : BaseNetLogic

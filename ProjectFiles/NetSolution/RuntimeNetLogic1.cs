@@ -13,6 +13,9 @@ using FTOptix.SerialPort;
 using FTOptix.UI;
 using FTOptix.Core;
 using FTOptix.WebUI;
+using FTOptix.S7TiaProfinet;
+using FTOptix.CommunicationDriver;
+using FTOptix.S7TCP;
 #endregion
 
 public class RuntimeNetLogic1 : BaseNetLogic

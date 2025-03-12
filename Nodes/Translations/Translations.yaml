@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [64,2],
+    "Dimensions": [66,2],
     "Body": [
      "","en-US",
      "Reboot","Reboot",
@@ -74,6 +74,8 @@ Children:
      "RemoteConnections","Remote connections",
      "Connected"," Connected",
      "AllowUserToConnect","Allow user \"{0}\" from IP address {1} to connect?",
-     "RegisterToDomainDeviceID","Device ID:"
+     "RegisterToDomainDeviceID","Device ID:",
+     "Connected to Station:","Connected to Station:",
+     "ImportExportModelVariablesStartingNodeDescription","Node containing variables for csv generation with full name and path to be used to import into models"
     ]
    }

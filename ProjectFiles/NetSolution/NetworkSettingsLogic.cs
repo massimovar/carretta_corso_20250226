@@ -7,6 +7,9 @@ using FTOptix.UI;
 using System.Linq;
 using FTOptix.SerialPort;
 using FTOptix.WebUI;
+using FTOptix.S7TiaProfinet;
+using FTOptix.CommunicationDriver;
+using FTOptix.S7TCP;
 #endregion
 
 public class NetworkSettingsLogic : BaseNetLogic
