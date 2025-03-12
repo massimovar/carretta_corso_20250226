@@ -1366,3 +1366,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Float
   Value: 1.2345677614212036
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: Int32
